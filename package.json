@@ -1,14 +1,16 @@
 {
-  "name": "youtube-playlist-parser",
+  "name": "get-youtube-playlist-urls",
   "version": "1.0.0",
-  "description": "",
+  "description": "Returns an array of all the URLs belonging on a playlist.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "youtube",
+    "playlist",
+    "video",
+    "url"
+  ],
+  "author": "Scott McKenzie",
+  "license": "MIT",
   "dependencies": {
     "jsdom": "^11.5.1",
     "request": "^2.83.0"
