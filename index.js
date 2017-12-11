@@ -22,7 +22,7 @@ async function getHrefs(url) {
 			const playlist = DOM.window.document.querySelector(PLAYLIST_SELECTOR);
 
 			if (!playlist) {
-				throw new Error('The given URL does not contain a YouTube playlist.');
+				reject(new Error('The given URL does not contain a YouTube playlist.'));
 			}
 
 			const hrefs = [].slice.call(playlist.querySelectorAll('li a')).map(a => {
